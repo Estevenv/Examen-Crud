@@ -1,0 +1,46 @@
+/* Fondo general */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+.bg-danger {
+  background: linear-gradient(90deg, #dc3545, #a71d2a);
+  color: white;
+}
+
+/* Botón principal */
+.boton {
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.boton:hover {
+  transform: scale(1.05);
+}
+
+/* Tabla */
+.table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  text-align: center;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Íconos de acción */
+.editar {
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.eliminar {
+  cursor: pointer;
+}
